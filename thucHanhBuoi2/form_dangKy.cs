@@ -17,7 +17,17 @@ namespace thucHanhBuoi2
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void form_dangKy_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
             string fullPath = ("user.txt");
             if (File.Exists(fullPath))
@@ -27,22 +37,11 @@ namespace thucHanhBuoi2
 
                 writer.Close();
 
-                MessageBox.Show("Tao tai khoan thanh cong", "thong bao", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Tao tai khoan thanh cong", "Thong Bao", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
             form_dangNhap form_DangNhap = new form_dangNhap();
             form_DangNhap.ShowDialog();
-
-        }
-
-        private void form_dangKy_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

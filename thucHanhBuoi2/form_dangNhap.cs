@@ -25,7 +25,12 @@ namespace thucHanhBuoi2
         private void button1_Click(object sender, EventArgs e)
         {
             form_TrangChu form_TrangChu = new form_TrangChu();
-            form_TrangChu.Show();
+            form_TrangChu.ShowDialog();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

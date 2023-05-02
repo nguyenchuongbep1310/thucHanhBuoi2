@@ -84,6 +84,7 @@
             button1.TabIndex = 3;
             button1.Text = "Lau dọn";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -96,6 +97,7 @@
             button2.TabIndex = 4;
             button2.Text = "Nấu cơm";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -108,6 +110,7 @@
             button3.TabIndex = 5;
             button3.Text = "Giặt giũ";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button4
             // 

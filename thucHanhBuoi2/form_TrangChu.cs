@@ -16,5 +16,17 @@ namespace thucHanhBuoi2
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            form_DichVu form_DichVu = new form_DichVu();
+            form_DichVu.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            form_TaiKhoan form_TaiKhoan = new form_TaiKhoan();
+            form_TaiKhoan.ShowDialog();
+        }
     }
 }

@@ -83,6 +83,16 @@ namespace thucHanhBuoi2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3643728_balloon_chat_conversation_speak_word_icon {
+            get {
+                object obj = ResourceManager.GetObject("3643728_balloon_chat_conversation_speak_word_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _4043260_avatar_male_man_portrait_icon {
             get {
                 object obj = ResourceManager.GetObject("4043260_avatar_male_man_portrait_icon", resourceCulture);
@@ -126,6 +136,16 @@ namespace thucHanhBuoi2.Properties {
         internal static System.Drawing.Bitmap canho01 {
             get {
                 object obj = ResourceManager.GetObject("canho01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap unnamed {
+            get {
+                object obj = ResourceManager.GetObject("unnamed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

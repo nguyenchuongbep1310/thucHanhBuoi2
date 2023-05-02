@@ -71,6 +71,7 @@
             button2.TabIndex = 1;
             button2.Text = "Dịch vụ";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -95,40 +96,41 @@
             button4.TabIndex = 3;
             button4.Text = "Tài khoản";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources._290149_building_estate_home_house_real_icon;
-            pictureBox1.Location = new Point(47, 873);
+            pictureBox1.Location = new Point(54, 859);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(59, 60);
+            pictureBox1.Size = new Size(52, 74);
             pictureBox1.TabIndex = 4;
             pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(223, 873);
+            pictureBox2.Location = new Point(232, 859);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(59, 60);
+            pictureBox2.Size = new Size(61, 74);
             pictureBox2.TabIndex = 5;
             pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(401, 873);
+            pictureBox3.Location = new Point(398, 859);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(59, 60);
+            pictureBox3.Size = new Size(62, 74);
             pictureBox3.TabIndex = 6;
             pictureBox3.TabStop = false;
             // 
             // pictureBox4
             // 
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(583, 873);
+            pictureBox4.Location = new Point(575, 859);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(59, 60);
+            pictureBox4.Size = new Size(67, 74);
             pictureBox4.TabIndex = 7;
             pictureBox4.TabStop = false;
             // 
