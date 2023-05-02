@@ -44,9 +44,9 @@
             // button1
             // 
             button1.Location = new Point(106, 690);
-            button1.Margin = new Padding(4, 4, 4, 4);
+            button1.Margin = new Padding(4);
             button1.Name = "button1";
-            button1.Size = new Size(495, 111);
+            button1.Size = new Size(488, 101);
             button1.TabIndex = 17;
             button1.Text = "Đăng ký";
             button1.UseVisualStyleBackColor = true;
@@ -58,7 +58,7 @@
             checkBox1.Checked = true;
             checkBox1.CheckState = CheckState.Checked;
             checkBox1.Location = new Point(106, 610);
-            checkBox1.Margin = new Padding(4, 4, 4, 4);
+            checkBox1.Margin = new Padding(4);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(492, 34);
             checkBox1.TabIndex = 15;
@@ -68,45 +68,45 @@
             // txt_xacNhanMatKhau
             // 
             txt_xacNhanMatKhau.Location = new Point(106, 519);
-            txt_xacNhanMatKhau.Margin = new Padding(4, 4, 4, 4);
+            txt_xacNhanMatKhau.Margin = new Padding(4);
             txt_xacNhanMatKhau.Name = "txt_xacNhanMatKhau";
-            txt_xacNhanMatKhau.Size = new Size(493, 35);
+            txt_xacNhanMatKhau.Size = new Size(486, 35);
             txt_xacNhanMatKhau.TabIndex = 14;
             txt_xacNhanMatKhau.Text = "Xác nhận mật khẩu";
             // 
             // txt_matKhau
             // 
             txt_matKhau.Location = new Point(106, 441);
-            txt_matKhau.Margin = new Padding(4, 4, 4, 4);
+            txt_matKhau.Margin = new Padding(4);
             txt_matKhau.Name = "txt_matKhau";
-            txt_matKhau.Size = new Size(493, 35);
+            txt_matKhau.Size = new Size(486, 35);
             txt_matKhau.TabIndex = 13;
             txt_matKhau.Text = "Mật khẩu";
             // 
             // txt_email
             // 
             txt_email.Location = new Point(106, 370);
-            txt_email.Margin = new Padding(4, 4, 4, 4);
+            txt_email.Margin = new Padding(4);
             txt_email.Name = "txt_email";
-            txt_email.Size = new Size(493, 35);
+            txt_email.Size = new Size(486, 35);
             txt_email.TabIndex = 12;
             txt_email.Text = "Email";
             // 
             // txt_soDienThoai
             // 
             txt_soDienThoai.Location = new Point(106, 304);
-            txt_soDienThoai.Margin = new Padding(4, 4, 4, 4);
+            txt_soDienThoai.Margin = new Padding(4);
             txt_soDienThoai.Name = "txt_soDienThoai";
-            txt_soDienThoai.Size = new Size(493, 35);
+            txt_soDienThoai.Size = new Size(486, 35);
             txt_soDienThoai.TabIndex = 11;
             txt_soDienThoai.Text = "Số điện thoại";
             // 
             // txt_hoTen
             // 
             txt_hoTen.Location = new Point(106, 237);
-            txt_hoTen.Margin = new Padding(4, 4, 4, 4);
+            txt_hoTen.Margin = new Padding(4);
             txt_hoTen.Name = "txt_hoTen";
-            txt_hoTen.Size = new Size(493, 35);
+            txt_hoTen.Size = new Size(486, 35);
             txt_hoTen.TabIndex = 10;
             txt_hoTen.Text = "Họ tên";
             // 
@@ -126,9 +126,9 @@
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Location = new Point(621, 4);
-            pictureBox1.Margin = new Padding(4, 4, 4, 4);
+            pictureBox1.Margin = new Padding(4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(88, 93);
+            pictureBox1.Size = new Size(81, 83);
             pictureBox1.TabIndex = 18;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -149,7 +149,7 @@
             Controls.Add(txt_hoTen);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "form_dangKy";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "form_dangKy";

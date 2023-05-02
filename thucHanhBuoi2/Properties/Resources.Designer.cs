@@ -73,6 +73,16 @@ namespace thucHanhBuoi2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _290149_building_estate_home_house_real_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("290149_building_estate_home_house_real_icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _4043260_avatar_male_man_portrait_icon {
             get {
                 object obj = ResourceManager.GetObject("4043260_avatar_male_man_portrait_icon", resourceCulture);
@@ -83,9 +93,39 @@ namespace thucHanhBuoi2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4043260_avatar_male_man_portrait_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("4043260_avatar_male_man_portrait_icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5929219_cook_cooking_food_hot_kitchen_icon {
+            get {
+                object obj = ResourceManager.GetObject("5929219_cook_cooking_food_hot_kitchen_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _73072_base_cart_shopping_icon {
             get {
                 object obj = ResourceManager.GetObject("73072_base_cart_shopping_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap canho01 {
+            get {
+                object obj = ResourceManager.GetObject("canho01", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
