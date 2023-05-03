@@ -59,6 +59,7 @@
             button1.TabIndex = 0;
             button1.Text = "Trang chủ";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -155,6 +156,7 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 9;
             pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
             // 
             // pictureBox6
             // 
@@ -186,6 +188,7 @@
             Controls.Add(button1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "form_TrangChu";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "form_TrangChu";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

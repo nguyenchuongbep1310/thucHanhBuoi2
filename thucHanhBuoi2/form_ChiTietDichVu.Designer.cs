@@ -31,8 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form_ChiTietDichVu));
             label1 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
-            label2 = new Label();
+            button4 = new Button();
+            button3 = new Button();
+            button2 = new Button();
             label3 = new Label();
+            label2 = new Label();
             label4 = new Label();
             label5 = new Label();
             pictureBox1 = new PictureBox();
@@ -44,9 +47,6 @@
             label8 = new Label();
             label9 = new Label();
             button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
             tableLayoutPanel2 = new TableLayoutPanel();
             button5 = new Button();
             button6 = new Button();
@@ -55,18 +55,18 @@
             button8 = new Button();
             label10 = new Label();
             tableLayoutPanel4 = new TableLayoutPanel();
-            label11 = new Label();
+            button11 = new Button();
+            button10 = new Button();
+            label16 = new Label();
+            label15 = new Label();
+            label14 = new Label();
+            pictureBox5 = new PictureBox();
             label12 = new Label();
             label13 = new Label();
-            pictureBox5 = new PictureBox();
+            label11 = new Label();
             pictureBox6 = new PictureBox();
             pictureBox7 = new PictureBox();
-            label14 = new Label();
-            label15 = new Label();
-            label16 = new Label();
             button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
             tableLayoutPanel5 = new TableLayoutPanel();
             button12 = new Button();
             button13 = new Button();
@@ -81,6 +81,7 @@
             pictureBox10 = new PictureBox();
             button14 = new Button();
             label23 = new Label();
+            pictureBox11 = new PictureBox();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -96,6 +97,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -147,18 +149,35 @@
             tableLayoutPanel1.Size = new Size(712, 396);
             tableLayoutPanel1.TabIndex = 1;
             // 
-            // label2
+            // button4
             // 
-            label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            label2.AutoSize = true;
-            label2.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(3, 94);
-            label2.Name = "label2";
-            label2.Size = new Size(163, 94);
-            label2.TabIndex = 0;
-            label2.Text = "200 - 500 m2";
-            label2.TextAlign = ContentAlignment.TopCenter;
-            label2.Click += label2_Click;
+            button4.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button4.Location = new Point(534, 285);
+            button4.Name = "button4";
+            button4.Size = new Size(171, 88);
+            button4.TabIndex = 15;
+            button4.Text = "Đặt";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.Location = new Point(534, 191);
+            button3.Name = "button3";
+            button3.Size = new Size(171, 88);
+            button3.TabIndex = 14;
+            button3.Text = "Đặt";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.Location = new Point(534, 97);
+            button2.Name = "button2";
+            button2.Size = new Size(171, 88);
+            button2.TabIndex = 13;
+            button2.Text = "Đặt";
+            button2.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -171,6 +190,19 @@
             label3.TabIndex = 1;
             label3.Text = "Trên 500m2";
             label3.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // label2
+            // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label2.AutoSize = true;
+            label2.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(3, 94);
+            label2.Name = "label2";
+            label2.Size = new Size(163, 94);
+            label2.TabIndex = 0;
+            label2.Text = "200 - 500 m2";
+            label2.TextAlign = ContentAlignment.TopCenter;
+            label2.Click += label2_Click;
             // 
             // label4
             // 
@@ -302,36 +334,6 @@
             button1.Text = "Đặt";
             button1.UseVisualStyleBackColor = true;
             // 
-            // button2
-            // 
-            button2.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(534, 97);
-            button2.Name = "button2";
-            button2.Size = new Size(171, 88);
-            button2.TabIndex = 13;
-            button2.Text = "Đặt";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.Location = new Point(534, 191);
-            button3.Name = "button3";
-            button3.Size = new Size(171, 88);
-            button3.TabIndex = 14;
-            button3.Text = "Đặt";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button4.Location = new Point(534, 285);
-            button4.Name = "button4";
-            button4.Size = new Size(171, 88);
-            button4.TabIndex = 15;
-            button4.Text = "Đặt";
-            button4.UseVisualStyleBackColor = true;
-            // 
             // tableLayoutPanel2
             // 
             tableLayoutPanel2.AutoSize = true;
@@ -452,17 +454,77 @@
             tableLayoutPanel4.Size = new Size(720, 245);
             tableLayoutPanel4.TabIndex = 3;
             // 
-            // label11
+            // button11
             // 
-            label11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            label11.AutoSize = true;
-            label11.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label11.Location = new Point(3, 0);
-            label11.Name = "label11";
-            label11.Size = new Size(174, 81);
-            label11.TabIndex = 16;
-            label11.Text = "2 món";
-            label11.TextAlign = ContentAlignment.TopCenter;
+            button11.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button11.Location = new Point(543, 165);
+            button11.Name = "button11";
+            button11.Size = new Size(174, 75);
+            button11.TabIndex = 22;
+            button11.Text = "Đặt";
+            button11.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            button10.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button10.Location = new Point(543, 84);
+            button10.Name = "button10";
+            button10.Size = new Size(174, 75);
+            button10.TabIndex = 21;
+            button10.Text = "Đặt";
+            button10.UseVisualStyleBackColor = true;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.BackColor = SystemColors.Highlight;
+            label16.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label16.ForeColor = SystemColors.ButtonHighlight;
+            label16.Location = new Point(363, 162);
+            label16.Name = "label16";
+            label16.Size = new Size(81, 38);
+            label16.TabIndex = 16;
+            label16.Text = "500$";
+            label16.TextAlign = ContentAlignment.MiddleCenter;
+            label16.Visible = false;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.BackColor = SystemColors.Highlight;
+            label15.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label15.ForeColor = SystemColors.ButtonHighlight;
+            label15.Location = new Point(363, 81);
+            label15.Name = "label15";
+            label15.Size = new Size(81, 38);
+            label15.TabIndex = 16;
+            label15.Text = "800$";
+            label15.TextAlign = ContentAlignment.MiddleCenter;
+            label15.Visible = false;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.BackColor = SystemColors.Highlight;
+            label14.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label14.ForeColor = SystemColors.ButtonHighlight;
+            label14.Location = new Point(363, 0);
+            label14.Name = "label14";
+            label14.Size = new Size(97, 38);
+            label14.TabIndex = 16;
+            label14.Text = "1000$";
+            label14.TextAlign = ContentAlignment.MiddleCenter;
+            label14.Visible = false;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(183, 3);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(174, 75);
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.TabIndex = 16;
+            pictureBox5.TabStop = false;
             // 
             // label12
             // 
@@ -488,15 +550,17 @@
             label13.Text = "5 món";
             label13.TextAlign = ContentAlignment.TopCenter;
             // 
-            // pictureBox5
+            // label11
             // 
-            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(183, 3);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(174, 75);
-            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox5.TabIndex = 16;
-            pictureBox5.TabStop = false;
+            label11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            label11.AutoSize = true;
+            label11.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label11.Location = new Point(3, 0);
+            label11.Name = "label11";
+            label11.Size = new Size(174, 81);
+            label11.TabIndex = 16;
+            label11.Text = "2 món";
+            label11.TextAlign = ContentAlignment.TopCenter;
             // 
             // pictureBox6
             // 
@@ -518,48 +582,6 @@
             pictureBox7.TabIndex = 20;
             pictureBox7.TabStop = false;
             // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.BackColor = SystemColors.Highlight;
-            label14.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label14.ForeColor = SystemColors.ButtonHighlight;
-            label14.Location = new Point(363, 0);
-            label14.Name = "label14";
-            label14.Size = new Size(97, 38);
-            label14.TabIndex = 16;
-            label14.Text = "1000$";
-            label14.TextAlign = ContentAlignment.MiddleCenter;
-            label14.Visible = false;
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.BackColor = SystemColors.Highlight;
-            label15.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label15.ForeColor = SystemColors.ButtonHighlight;
-            label15.Location = new Point(363, 81);
-            label15.Name = "label15";
-            label15.Size = new Size(81, 38);
-            label15.TabIndex = 16;
-            label15.Text = "800$";
-            label15.TextAlign = ContentAlignment.MiddleCenter;
-            label15.Visible = false;
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.BackColor = SystemColors.Highlight;
-            label16.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label16.ForeColor = SystemColors.ButtonHighlight;
-            label16.Location = new Point(363, 162);
-            label16.Name = "label16";
-            label16.Size = new Size(81, 38);
-            label16.TabIndex = 16;
-            label16.Text = "500$";
-            label16.TextAlign = ContentAlignment.MiddleCenter;
-            label16.Visible = false;
-            // 
             // button9
             // 
             button9.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
@@ -569,26 +591,6 @@
             button9.TabIndex = 16;
             button9.Text = "Đặt";
             button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            button10.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button10.Location = new Point(543, 84);
-            button10.Name = "button10";
-            button10.Size = new Size(174, 75);
-            button10.TabIndex = 21;
-            button10.Text = "Đặt";
-            button10.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            button11.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button11.Location = new Point(543, 165);
-            button11.Name = "button11";
-            button11.Size = new Size(174, 75);
-            button11.TabIndex = 22;
-            button11.Text = "Đặt";
-            button11.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel5
             // 
@@ -768,12 +770,24 @@
             label23.TabIndex = 5;
             label23.Text = "Giặt ủi";
             // 
+            // pictureBox11
+            // 
+            pictureBox11.Image = Properties.Resources._2540587_notification_paper_plane_plane_send_icon;
+            pictureBox11.Location = new Point(670, -1);
+            pictureBox11.Name = "pictureBox11";
+            pictureBox11.Size = new Size(70, 65);
+            pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox11.TabIndex = 18;
+            pictureBox11.TabStop = false;
+            pictureBox11.Click += pictureBox11_Click;
+            // 
             // form_ChiTietDichVu
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(739, 1131);
+            Controls.Add(pictureBox11);
             Controls.Add(label23);
             Controls.Add(tableLayoutPanel5);
             Controls.Add(tableLayoutPanel4);
@@ -803,6 +817,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -861,5 +876,6 @@
         private PictureBox pictureBox10;
         private Button button14;
         private Label label23;
+        private PictureBox pictureBox11;
     }
 }

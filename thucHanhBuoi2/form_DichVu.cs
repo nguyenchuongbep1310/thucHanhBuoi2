@@ -34,5 +34,12 @@ namespace thucHanhBuoi2
             form_ChiTietDichVu form_ChiTietDichVu = new form_ChiTietDichVu();
             form_ChiTietDichVu.ShowDialog();
         }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            form_TrangChu form_TrangChu = new form_TrangChu();
+            form_TrangChu.ShowDialog();
+        }
     }
 }

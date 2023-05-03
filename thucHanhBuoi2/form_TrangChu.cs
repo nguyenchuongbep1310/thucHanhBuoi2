@@ -19,14 +19,28 @@ namespace thucHanhBuoi2
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Hide();
             form_DichVu form_DichVu = new form_DichVu();
             form_DichVu.ShowDialog();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
+            this.Hide();
             form_TaiKhoan form_TaiKhoan = new form_TaiKhoan();
             form_TaiKhoan.ShowDialog();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            form_dangNhap form_DangNhap = new form_dangNhap();
+            form_DangNhap.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

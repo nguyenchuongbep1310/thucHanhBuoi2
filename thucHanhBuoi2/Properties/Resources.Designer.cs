@@ -63,6 +63,16 @@ namespace thucHanhBuoi2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2540587_notification_paper_plane_plane_send_icon {
+            get {
+                object obj = ResourceManager.GetObject("2540587_notification_paper plane_plane_send_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _290149_building_estate_home_house_real_icon {
             get {
                 object obj = ResourceManager.GetObject("290149_building_estate_home_house_real_icon", resourceCulture);

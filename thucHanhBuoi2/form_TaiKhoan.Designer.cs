@@ -28,6 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form_TaiKhoan));
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             pictureBox1 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
@@ -39,15 +43,29 @@
             textBox4 = new TextBox();
             label5 = new Label();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            tableLayoutPanel1 = new TableLayoutPanel();
             backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
-            label7 = new Label();
-            label8 = new Label();
-            label9 = new Label();
-            label10 = new Label();
-            label6 = new Label();
+            pictureBox4 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox5 = new PictureBox();
+            button4 = new Button();
+            button3 = new Button();
+            button2 = new Button();
+            button1 = new Button();
+            pictureBox8 = new PictureBox();
+            dataGridView1 = new DataGridView();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column5 = new DataGridViewTextBoxColumn();
+            button5 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -138,84 +156,196 @@
             label5.TabIndex = 8;
             label5.Text = "Mật khẩu";
             // 
-            // tableLayoutPanel1
+            // pictureBox4
             // 
-            tableLayoutPanel1.ColumnCount = 5;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
-            tableLayoutPanel1.Controls.Add(label6, 0, 0);
-            tableLayoutPanel1.Controls.Add(label10, 4, 0);
-            tableLayoutPanel1.Controls.Add(label9, 3, 0);
-            tableLayoutPanel1.Controls.Add(label8, 2, 0);
-            tableLayoutPanel1.Controls.Add(label7, 1, 0);
-            tableLayoutPanel1.Location = new Point(24, 683);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 2;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(644, 237);
-            tableLayoutPanel1.TabIndex = 10;
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(584, 884);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(67, 74);
+            pictureBox4.TabIndex = 18;
+            pictureBox4.TabStop = false;
             // 
-            // label7
+            // pictureBox3
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            label7.Location = new Point(131, 0);
-            label7.Name = "label7";
-            label7.Size = new Size(110, 30);
-            label7.TabIndex = 1;
-            label7.Text = "Thời gian";
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(407, 884);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(62, 74);
+            pictureBox3.TabIndex = 17;
+            pictureBox3.TabStop = false;
             // 
-            // label8
+            // pictureBox2
             // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            label8.Location = new Point(259, 0);
-            label8.Name = "label8";
-            label8.Size = new Size(83, 30);
-            label8.TabIndex = 2;
-            label8.Text = "Địa chỉ";
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(241, 884);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(61, 74);
+            pictureBox2.TabIndex = 16;
+            pictureBox2.TabStop = false;
             // 
-            // label9
+            // pictureBox5
             // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            label9.Location = new Point(387, 0);
-            label9.Name = "label9";
-            label9.Size = new Size(120, 30);
-            label9.TabIndex = 3;
-            label9.Text = "Trạng thái";
+            pictureBox5.Image = Properties.Resources._290149_building_estate_home_house_real_icon;
+            pictureBox5.Location = new Point(63, 884);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(52, 74);
+            pictureBox5.TabIndex = 15;
+            pictureBox5.TabStop = false;
             // 
-            // label10
+            // button4
             // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            label10.Location = new Point(515, 0);
-            label10.Name = "label10";
-            label10.Size = new Size(106, 30);
-            label10.TabIndex = 4;
-            label10.Text = "Đánh giá";
+            button4.BackColor = SystemColors.Window;
+            button4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button4.ForeColor = Color.FromArgb(192, 192, 0);
+            button4.Location = new Point(534, 954);
+            button4.Name = "button4";
+            button4.Size = new Size(164, 55);
+            button4.TabIndex = 14;
+            button4.Text = "Tài khoản";
+            button4.UseVisualStyleBackColor = false;
             // 
-            // label6
+            // button3
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            label6.Location = new Point(3, 0);
-            label6.Name = "label6";
-            label6.Size = new Size(82, 30);
-            label6.TabIndex = 5;
-            label6.Text = "Họ tên";
+            button3.BackColor = SystemColors.Window;
+            button3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.ForeColor = Color.FromArgb(192, 192, 0);
+            button3.Location = new Point(353, 954);
+            button3.Name = "button3";
+            button3.Size = new Size(175, 55);
+            button3.TabIndex = 13;
+            button3.Text = "Cộng đồng";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.Window;
+            button2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.ForeColor = Color.FromArgb(192, 192, 0);
+            button2.Location = new Point(180, 954);
+            button2.Name = "button2";
+            button2.Size = new Size(164, 55);
+            button2.TabIndex = 12;
+            button2.Text = "Dịch vụ";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.Window;
+            button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.ForeColor = Color.FromArgb(192, 192, 0);
+            button1.Location = new Point(10, 954);
+            button1.Name = "button1";
+            button1.Size = new Size(164, 55);
+            button1.TabIndex = 11;
+            button1.Text = "Trang chủ";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox8
+            // 
+            pictureBox8.Image = Properties.Resources._2540587_notification_paper_plane_plane_send_icon;
+            pictureBox8.Location = new Point(643, 3);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(70, 65);
+            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox8.TabIndex = 19;
+            pictureBox8.TabStop = false;
+            pictureBox8.Click += pictureBox8_Click;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.BackgroundColor = Color.Yellow;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Control;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column4, Column5 });
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = SystemColors.Window;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
+            dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridView1.Location = new Point(-5, 608);
+            dataGridView1.Name = "dataGridView1";
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = SystemColors.Control;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
+            dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridView1.RowHeadersWidth = 72;
+            dataGridView1.RowTemplate.Height = 37;
+            dataGridView1.Size = new Size(718, 211);
+            dataGridView1.TabIndex = 20;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // Column1
+            // 
+            Column1.HeaderText = "Tên dịch vụ";
+            Column1.MinimumWidth = 9;
+            Column1.Name = "Column1";
+            Column1.Width = 175;
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Thời gian";
+            Column2.MinimumWidth = 9;
+            Column2.Name = "Column2";
+            Column2.Width = 175;
+            // 
+            // Column4
+            // 
+            Column4.HeaderText = "Trạng thái";
+            Column4.MinimumWidth = 9;
+            Column4.Name = "Column4";
+            Column4.Width = 175;
+            // 
+            // Column5
+            // 
+            Column5.HeaderText = "Đánh giá";
+            Column5.MinimumWidth = 9;
+            Column5.Name = "Column5";
+            Column5.Width = 175;
+            // 
+            // button5
+            // 
+            button5.BackColor = SystemColors.MenuHighlight;
+            button5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button5.ForeColor = Color.White;
+            button5.Location = new Point(267, 825);
+            button5.Name = "button5";
+            button5.Size = new Size(164, 55);
+            button5.TabIndex = 21;
+            button5.Text = "Lịch sử";
+            button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // form_TaiKhoan
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
-            ClientSize = new Size(714, 1050);
-            Controls.Add(tableLayoutPanel1);
+            ClientSize = new Size(718, 1050);
+            Controls.Add(button5);
+            Controls.Add(dataGridView1);
+            Controls.Add(pictureBox8);
+            Controls.Add(pictureBox4);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox5);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
             Controls.Add(textBox4);
             Controls.Add(label5);
             Controls.Add(textBox3);
@@ -228,10 +358,15 @@
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "form_TaiKhoan";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "form_TaiKhoan";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            tableLayoutPanel1.ResumeLayout(false);
-            tableLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -249,12 +384,21 @@
         private TextBox textBox4;
         private Label label5;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private TableLayoutPanel tableLayoutPanel1;
-        private Label label6;
-        private Label label10;
-        private Label label9;
-        private Label label8;
-        private Label label7;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
+        private PictureBox pictureBox4;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox5;
+        private Button button4;
+        private Button button3;
+        private Button button2;
+        private Button button1;
+        private PictureBox pictureBox8;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column4;
+        private DataGridViewTextBoxColumn Column5;
+        private Button button5;
     }
 }

@@ -10,24 +10,26 @@ using System.Windows.Forms;
 
 namespace thucHanhBuoi2
 {
-    public partial class form_ChiTietDichVu : Form
+    public partial class form_CongDong : Form
     {
-        public form_ChiTietDichVu()
+        public form_CongDong()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void form_ChiTietDichVu_Load(object sender, EventArgs e)
+        private void pictureBox5_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            form_TrangChu form_TrangChu = new form_TrangChu();
+            form_TrangChu.ShowDialog();
         }
 
-        private void pictureBox11_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
             form_TrangChu form_TrangChu = new form_TrangChu();

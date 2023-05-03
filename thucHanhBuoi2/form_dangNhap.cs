@@ -24,6 +24,7 @@ namespace thucHanhBuoi2
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             form_TrangChu form_TrangChu = new form_TrangChu();
             form_TrangChu.ShowDialog();
         }
