@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form_dangNhap));
             pictureBox1 = new PictureBox();
-            txt_matKhau = new TextBox();
-            txt_email = new TextBox();
-            checkBox1 = new CheckBox();
+            tbPass = new TextBox();
+            tbUser = new TextBox();
+            cbSave = new CheckBox();
             label1 = new Label();
             button1 = new Button();
             label2 = new Label();
@@ -59,41 +59,41 @@
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
-            // txt_matKhau
+            // tbPass
             // 
-            txt_matKhau.Font = new Font("Tahoma", 15.8571434F, FontStyle.Italic, GraphicsUnit.Point);
-            txt_matKhau.ForeColor = SystemColors.AppWorkspace;
-            txt_matKhau.Location = new Point(101, 417);
-            txt_matKhau.Margin = new Padding(4);
-            txt_matKhau.Name = "txt_matKhau";
-            txt_matKhau.Size = new Size(493, 52);
-            txt_matKhau.TabIndex = 21;
-            txt_matKhau.Text = "Mật khẩu";
+            tbPass.Font = new Font("Tahoma", 15.8571434F, FontStyle.Italic, GraphicsUnit.Point);
+            tbPass.ForeColor = SystemColors.AppWorkspace;
+            tbPass.Location = new Point(101, 417);
+            tbPass.Margin = new Padding(4);
+            tbPass.Name = "tbPass";
+            tbPass.Size = new Size(493, 52);
+            tbPass.TabIndex = 21;
+            tbPass.Text = "Mật khẩu";
             // 
-            // txt_email
+            // tbUser
             // 
-            txt_email.Font = new Font("Tahoma", 15.8571434F, FontStyle.Italic, GraphicsUnit.Point);
-            txt_email.ForeColor = SystemColors.AppWorkspace;
-            txt_email.Location = new Point(101, 346);
-            txt_email.Margin = new Padding(4);
-            txt_email.Name = "txt_email";
-            txt_email.Size = new Size(493, 52);
-            txt_email.TabIndex = 20;
-            txt_email.Text = "Email";
+            tbUser.Font = new Font("Tahoma", 15.8571434F, FontStyle.Italic, GraphicsUnit.Point);
+            tbUser.ForeColor = SystemColors.AppWorkspace;
+            tbUser.Location = new Point(101, 346);
+            tbUser.Margin = new Padding(4);
+            tbUser.Name = "tbUser";
+            tbUser.Size = new Size(493, 52);
+            tbUser.TabIndex = 20;
+            tbUser.Text = "Email";
             // 
-            // checkBox1
+            // cbSave
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Checked = true;
-            checkBox1.CheckState = CheckState.Checked;
-            checkBox1.Font = new Font("Segoe UI Emoji", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            checkBox1.Location = new Point(60, 514);
-            checkBox1.Margin = new Padding(4);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(376, 41);
-            checkBox1.TabIndex = 22;
-            checkBox1.Text = "Lưu thông tin đăng nhập";
-            checkBox1.UseVisualStyleBackColor = true;
+            cbSave.AutoSize = true;
+            cbSave.Checked = true;
+            cbSave.CheckState = CheckState.Checked;
+            cbSave.Font = new Font("Segoe UI Emoji", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            cbSave.Location = new Point(60, 514);
+            cbSave.Margin = new Padding(4);
+            cbSave.Name = "cbSave";
+            cbSave.Size = new Size(376, 41);
+            cbSave.TabIndex = 22;
+            cbSave.Text = "Lưu thông tin đăng nhập";
+            cbSave.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -198,9 +198,9 @@
             Controls.Add(label2);
             Controls.Add(button1);
             Controls.Add(label1);
-            Controls.Add(checkBox1);
-            Controls.Add(txt_matKhau);
-            Controls.Add(txt_email);
+            Controls.Add(cbSave);
+            Controls.Add(tbPass);
+            Controls.Add(tbUser);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4);
@@ -218,9 +218,9 @@
         #endregion
 
         private PictureBox pictureBox1;
-        private TextBox txt_matKhau;
-        private TextBox txt_email;
-        private CheckBox checkBox1;
+        private TextBox tbPass;
+        private TextBox tbUser;
+        private CheckBox cbSave;
         private Label label1;
         private Button button1;
         private Label label2;
