@@ -29,7 +29,7 @@ namespace thucHanhBuoi2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string fullPath = ("user.txt");
+            string fullPath = ("C:\\Users\\BeP\\Desktop\\db.txt");
             if (File.Exists(fullPath))
             {
                 StreamWriter writer = new StreamWriter(fullPath, true);

@@ -42,5 +42,12 @@ namespace thucHanhBuoi2
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            form_CongDong form_CongDong = new form_CongDong();
+            form_CongDong.ShowDialog();
+        }
     }
 }

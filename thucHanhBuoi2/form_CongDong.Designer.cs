@@ -336,6 +336,7 @@
             Controls.Add(button1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "form_CongDong";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "form_CongDong";
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
