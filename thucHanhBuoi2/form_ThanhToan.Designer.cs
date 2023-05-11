@@ -86,11 +86,11 @@
             // lbLauDon
             // 
             lbLauDon.AutoSize = true;
-            lbLauDon.Font = new Font("Tahoma", 14.1428576F, FontStyle.Italic, GraphicsUnit.Point);
+            lbLauDon.Font = new Font("Tahoma", 14.1428576F, FontStyle.Bold, GraphicsUnit.Point);
             lbLauDon.ForeColor = SystemColors.Highlight;
             lbLauDon.Location = new Point(290, 0);
             lbLauDon.Name = "lbLauDon";
-            lbLauDon.Size = new Size(103, 40);
+            lbLauDon.Size = new Size(119, 40);
             lbLauDon.TabIndex = 2;
             lbLauDon.Text = "label1";
             // 
@@ -107,22 +107,22 @@
             // lbNauCom
             // 
             lbNauCom.AutoSize = true;
-            lbNauCom.Font = new Font("Tahoma", 14.1428576F, FontStyle.Italic, GraphicsUnit.Point);
+            lbNauCom.Font = new Font("Tahoma", 14.1428576F, FontStyle.Bold, GraphicsUnit.Point);
             lbNauCom.ForeColor = SystemColors.Highlight;
             lbNauCom.Location = new Point(290, 258);
             lbNauCom.Name = "lbNauCom";
-            lbNauCom.Size = new Size(103, 40);
+            lbNauCom.Size = new Size(119, 40);
             lbNauCom.TabIndex = 4;
             lbNauCom.Text = "label3";
             // 
             // lbGiatUi
             // 
             lbGiatUi.AutoSize = true;
-            lbGiatUi.Font = new Font("Tahoma", 14.1428576F, FontStyle.Italic, GraphicsUnit.Point);
+            lbGiatUi.Font = new Font("Tahoma", 14.1428576F, FontStyle.Bold, GraphicsUnit.Point);
             lbGiatUi.ForeColor = SystemColors.Highlight;
             lbGiatUi.Location = new Point(290, 516);
             lbGiatUi.Name = "lbGiatUi";
-            lbGiatUi.Size = new Size(103, 40);
+            lbGiatUi.Size = new Size(119, 40);
             lbGiatUi.TabIndex = 5;
             lbGiatUi.Text = "label4";
             // 
