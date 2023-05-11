@@ -24,5 +24,12 @@ namespace thucHanhBuoi2
             lbGiatUi.Text = File.ReadAllText("C:\\Users\\BeP\\Desktop\\svgiat.txt");
             MessageBox.Show("Dat hang thanh cong", "Thong Bao", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            form_TrangChu form_TrangChu = new form_TrangChu();
+            form_TrangChu.ShowDialog();
+        }
     }
 }

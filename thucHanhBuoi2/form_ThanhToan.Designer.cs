@@ -37,7 +37,9 @@
             lbGiatUi = new Label();
             label1 = new Label();
             button2 = new Button();
+            pictureBox8 = new PictureBox();
             tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -148,12 +150,24 @@
             button2.Text = "Thanh toán";
             button2.UseVisualStyleBackColor = false;
             // 
+            // pictureBox8
+            // 
+            pictureBox8.Image = Properties.Resources._2540587_notification_paper_plane_plane_send_icon;
+            pictureBox8.Location = new Point(613, -2);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(70, 65);
+            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox8.TabIndex = 20;
+            pictureBox8.TabStop = false;
+            pictureBox8.Click += pictureBox8_Click;
+            // 
             // form_ThanhToan
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(680, 986);
+            Controls.Add(pictureBox8);
             Controls.Add(button2);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(button1);
@@ -163,6 +177,7 @@
             Text = "form_ThanhToan";
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ResumeLayout(false);
         }
 
@@ -176,5 +191,6 @@
         private Label lbGiatUi;
         private Label label3;
         private Label label1;
+        private PictureBox pictureBox8;
     }
 }
