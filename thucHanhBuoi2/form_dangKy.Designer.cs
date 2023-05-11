@@ -66,6 +66,7 @@
             txt_xacNhanMatKhau.Size = new Size(486, 52);
             txt_xacNhanMatKhau.TabIndex = 14;
             txt_xacNhanMatKhau.Text = "Xác nhận mật khẩu";
+            txt_xacNhanMatKhau.UseSystemPasswordChar = true;
             // 
             // txt_matKhau
             // 
@@ -76,6 +77,7 @@
             txt_matKhau.Size = new Size(486, 52);
             txt_matKhau.TabIndex = 13;
             txt_matKhau.Text = "Mật khẩu";
+            txt_matKhau.UseSystemPasswordChar = true;
             // 
             // txt_email
             // 

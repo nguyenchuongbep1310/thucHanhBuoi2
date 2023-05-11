@@ -40,12 +40,19 @@
             label1 = new Label();
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            pictureBox7 = new PictureBox();
+            button5 = new Button();
+            label2 = new Label();
+            button6 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -53,11 +60,11 @@
             button1.BackColor = SystemColors.Window;
             button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = Color.FromArgb(192, 192, 0);
-            button1.Location = new Point(1, 929);
+            button1.Location = new Point(176, 929);
             button1.Name = "button1";
             button1.Size = new Size(164, 55);
             button1.TabIndex = 0;
-            button1.Text = "Trang chủ";
+            button1.Text = "Giỏ hàng";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
@@ -66,7 +73,7 @@
             button2.BackColor = SystemColors.Window;
             button2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = Color.FromArgb(192, 192, 0);
-            button2.Location = new Point(171, 929);
+            button2.Location = new Point(12, 929);
             button2.Name = "button2";
             button2.Size = new Size(164, 55);
             button2.TabIndex = 1;
@@ -102,8 +109,8 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources._290149_building_estate_home_house_real_icon;
-            pictureBox1.Location = new Point(54, 859);
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(229, 859);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(52, 74);
             pictureBox1.TabIndex = 4;
@@ -112,7 +119,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(232, 859);
+            pictureBox2.Location = new Point(73, 859);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(61, 74);
             pictureBox2.TabIndex = 5;
@@ -163,12 +170,76 @@
             // 
             pictureBox6.BackColor = SystemColors.HighlightText;
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(31, 92);
+            pictureBox6.Location = new Point(1, 336);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(414, 650);
-            pictureBox6.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox6.Size = new Size(688, 474);
+            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 10;
             pictureBox6.TabStop = false;
+            // 
+            // tableLayoutPanel1
+            // 
+            tableLayoutPanel1.ColumnCount = 2;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.Controls.Add(pictureBox7, 0, 0);
+            tableLayoutPanel1.Controls.Add(button5, 1, 0);
+            tableLayoutPanel1.Controls.Add(label2, 0, 1);
+            tableLayoutPanel1.Controls.Add(button6, 1, 1);
+            tableLayoutPanel1.Location = new Point(1, 91);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 2;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel1.Size = new Size(688, 216);
+            tableLayoutPanel1.TabIndex = 11;
+            // 
+            // pictureBox7
+            // 
+            pictureBox7.Image = Properties.Resources._4043260_avatar_male_man_portrait_icon1;
+            pictureBox7.Location = new Point(3, 3);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(82, 78);
+            pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox7.TabIndex = 0;
+            pictureBox7.TabStop = false;
+            // 
+            // button5
+            // 
+            button5.BackColor = SystemColors.Window;
+            button5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button5.ForeColor = Color.FromArgb(192, 192, 0);
+            button5.Location = new Point(347, 3);
+            button5.Name = "button5";
+            button5.Size = new Size(330, 94);
+            button5.TabIndex = 12;
+            button5.Text = "Khám phá";
+            button5.UseVisualStyleBackColor = false;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Tahoma", 15.8571434F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = SystemColors.Highlight;
+            label2.Location = new Point(3, 108);
+            label2.Name = "label2";
+            label2.Size = new Size(334, 90);
+            label2.TabIndex = 13;
+            label2.Text = "Địa chỉ: UIT, Thủ Đức, TPHCM";
+            // 
+            // button6
+            // 
+            button6.BackColor = SystemColors.Menu;
+            button6.BackgroundImageLayout = ImageLayout.Zoom;
+            button6.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            button6.ForeColor = Color.Blue;
+            button6.Location = new Point(347, 111);
+            button6.Name = "button6";
+            button6.Size = new Size(338, 102);
+            button6.TabIndex = 14;
+            button6.Text = "$700";
+            button6.UseVisualStyleBackColor = false;
             // 
             // form_TrangChu
             // 
@@ -176,6 +247,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(690, 986);
+            Controls.Add(tableLayoutPanel1);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
             Controls.Add(label1);
@@ -197,6 +269,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            tableLayoutPanel1.ResumeLayout(false);
+            tableLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -214,5 +289,10 @@
         private Label label1;
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
+        private TableLayoutPanel tableLayoutPanel1;
+        private PictureBox pictureBox7;
+        private Button button5;
+        private Label label2;
+        private Button button6;
     }
 }

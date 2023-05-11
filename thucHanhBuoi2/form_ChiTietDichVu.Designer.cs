@@ -333,6 +333,7 @@
             button1.TabIndex = 12;
             button1.Text = "Đặt";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // tableLayoutPanel2
             // 
@@ -591,6 +592,7 @@
             button9.TabIndex = 16;
             button9.Text = "Đặt";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // tableLayoutPanel5
             // 
@@ -757,6 +759,7 @@
             button14.TabIndex = 16;
             button14.Text = "Đặt";
             button14.UseVisualStyleBackColor = true;
+            button14.Click += button14_Click;
             // 
             // label23
             // 

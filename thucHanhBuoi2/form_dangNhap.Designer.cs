@@ -69,6 +69,8 @@
             tbPass.Size = new Size(493, 52);
             tbPass.TabIndex = 21;
             tbPass.Text = "Mật khẩu";
+            tbPass.UseSystemPasswordChar = true;
+            tbPass.TextChanged += tbPass_TextChanged;
             // 
             // tbUser
             // 
@@ -94,6 +96,7 @@
             cbSave.TabIndex = 22;
             cbSave.Text = "Lưu thông tin đăng nhập";
             cbSave.UseVisualStyleBackColor = true;
+            cbSave.CheckedChanged += cbSave_CheckedChanged;
             // 
             // label1
             // 

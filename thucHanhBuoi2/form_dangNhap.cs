@@ -59,13 +59,6 @@ namespace thucHanhBuoi2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            form_TrangChu form_TrangChu = new form_TrangChu();
-            form_TrangChu.ShowDialog();
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
             string[] lines = File.ReadAllLines("C:\\Users\\BeP\\Desktop\\db.txt");
             int flag = 0;
             foreach (string line in lines)
@@ -110,6 +103,21 @@ namespace thucHanhBuoi2
                 form_TrangChu form_TrangChu = new form_TrangChu();
                 form_TrangChu.ShowDialog();
             }
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void cbSave_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbPass_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

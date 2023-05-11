@@ -35,5 +35,12 @@ namespace thucHanhBuoi2
             form_TrangChu form_TrangChu = new form_TrangChu();
             form_TrangChu.ShowDialog();
         }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            string message = tbMessage.Text.ToString();
+            lbMessage.Items.Add("You: " + message);
+            tbMessage.Text = "";
+        }
     }
 }

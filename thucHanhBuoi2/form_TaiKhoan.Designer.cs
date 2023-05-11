@@ -35,12 +35,12 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            tbHoTen = new TextBox();
+            tbSdt = new TextBox();
             label3 = new Label();
-            textBox3 = new TextBox();
+            tbEmail = new TextBox();
             label4 = new Label();
-            textBox4 = new TextBox();
+            tbMatKhau = new TextBox();
             label5 = new Label();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
@@ -59,6 +59,7 @@
             Column4 = new DataGridViewTextBoxColumn();
             Column5 = new DataGridViewTextBoxColumn();
             button5 = new Button();
+            button6 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -98,19 +99,19 @@
             label2.TabIndex = 2;
             label2.Text = "Họ tên";
             // 
-            // textBox1
+            // tbHoTen
             // 
-            textBox1.Location = new Point(40, 231);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(569, 35);
-            textBox1.TabIndex = 3;
+            tbHoTen.Location = new Point(40, 231);
+            tbHoTen.Name = "tbHoTen";
+            tbHoTen.Size = new Size(569, 35);
+            tbHoTen.TabIndex = 3;
             // 
-            // textBox2
+            // tbSdt
             // 
-            textBox2.Location = new Point(40, 323);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(569, 35);
-            textBox2.TabIndex = 5;
+            tbSdt.Location = new Point(40, 323);
+            tbSdt.Name = "tbSdt";
+            tbSdt.Size = new Size(569, 35);
+            tbSdt.TabIndex = 5;
             // 
             // label3
             // 
@@ -122,12 +123,12 @@
             label3.TabIndex = 4;
             label3.Text = "Sdt";
             // 
-            // textBox3
+            // tbEmail
             // 
-            textBox3.Location = new Point(40, 432);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(569, 35);
-            textBox3.TabIndex = 7;
+            tbEmail.Location = new Point(40, 432);
+            tbEmail.Name = "tbEmail";
+            tbEmail.Size = new Size(569, 35);
+            tbEmail.TabIndex = 7;
             // 
             // label4
             // 
@@ -139,12 +140,13 @@
             label4.TabIndex = 6;
             label4.Text = "Email";
             // 
-            // textBox4
+            // tbMatKhau
             // 
-            textBox4.Location = new Point(40, 551);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(569, 35);
-            textBox4.TabIndex = 9;
+            tbMatKhau.Location = new Point(40, 551);
+            tbMatKhau.Name = "tbMatKhau";
+            tbMatKhau.Size = new Size(569, 35);
+            tbMatKhau.TabIndex = 9;
+            tbMatKhau.UseSystemPasswordChar = true;
             // 
             // label5
             // 
@@ -329,12 +331,26 @@
             button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
             // 
+            // button6
+            // 
+            button6.BackColor = SystemColors.MenuHighlight;
+            button6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button6.ForeColor = Color.White;
+            button6.Location = new Point(465, 92);
+            button6.Name = "button6";
+            button6.Size = new Size(164, 55);
+            button6.TabIndex = 22;
+            button6.Text = "Thay ảnh";
+            button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
+            // 
             // form_TaiKhoan
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(718, 1050);
+            Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(dataGridView1);
             Controls.Add(pictureBox8);
@@ -346,13 +362,13 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(textBox4);
+            Controls.Add(tbMatKhau);
             Controls.Add(label5);
-            Controls.Add(textBox3);
+            Controls.Add(tbEmail);
             Controls.Add(label4);
-            Controls.Add(textBox2);
+            Controls.Add(tbSdt);
             Controls.Add(label3);
-            Controls.Add(textBox1);
+            Controls.Add(tbHoTen);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
@@ -360,6 +376,7 @@
             Name = "form_TaiKhoan";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "form_TaiKhoan";
+            Load += form_TaiKhoan_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
@@ -376,12 +393,12 @@
         private PictureBox pictureBox1;
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox tbHoTen;
+        private TextBox tbSdt;
         private Label label3;
-        private TextBox textBox3;
+        private TextBox tbEmail;
         private Label label4;
-        private TextBox textBox4;
+        private TextBox tbMatKhau;
         private Label label5;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
@@ -400,5 +417,6 @@
         private DataGridViewTextBoxColumn Column4;
         private DataGridViewTextBoxColumn Column5;
         private Button button5;
+        private Button button6;
     }
 }

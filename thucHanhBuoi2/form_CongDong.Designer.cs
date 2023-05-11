@@ -41,16 +41,9 @@
             pictureBox5 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
+            tbMessage = new TextBox();
             pictureBox7 = new PictureBox();
-            label3 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            pictureBox8 = new PictureBox();
-            pictureBox9 = new PictureBox();
-            pictureBox10 = new PictureBox();
-            pictureBox11 = new PictureBox();
+            lbMessage = new ListBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -58,10 +51,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             SuspendLayout();
             // 
             // pictureBox4
@@ -195,13 +184,13 @@
             label2.TabIndex = 19;
             label2.Text = "Nhập câu hỏi của bạn...";
             // 
-            // textBox1
+            // tbMessage
             // 
-            textBox1.Location = new Point(-1, 500);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(601, 61);
-            textBox1.TabIndex = 20;
+            tbMessage.Location = new Point(-1, 500);
+            tbMessage.Multiline = true;
+            tbMessage.Name = "tbMessage";
+            tbMessage.Size = new Size(601, 61);
+            tbMessage.TabIndex = 20;
             // 
             // pictureBox7
             // 
@@ -213,98 +202,16 @@
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 21;
             pictureBox7.TabStop = false;
+            pictureBox7.Click += pictureBox7_Click;
             // 
-            // label3
+            // lbMessage
             // 
-            label3.AutoSize = true;
-            label3.BackColor = SystemColors.GradientActiveCaption;
-            label3.Font = new Font("Tahoma", 14.1428576F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.ForeColor = SystemColors.ButtonFace;
-            label3.Location = new Point(77, 604);
-            label3.Name = "label3";
-            label3.Size = new Size(480, 40);
-            label3.TabIndex = 22;
-            label3.Text = "Thanh toán theo hình thức nào?";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.BackColor = SystemColors.GradientActiveCaption;
-            label5.Font = new Font("Tahoma", 14.1428576F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.ForeColor = SystemColors.ButtonFace;
-            label5.Location = new Point(198, 673);
-            label5.Name = "label5";
-            label5.Size = new Size(503, 40);
-            label5.TabIndex = 24;
-            label5.Text = "Dịch vụ có làm vào ngày lễ không";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.BackColor = SystemColors.GradientActiveCaption;
-            label6.Font = new Font("Tahoma", 14.1428576F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.ForeColor = SystemColors.ButtonFace;
-            label6.Location = new Point(61, 739);
-            label6.Name = "label6";
-            label6.Size = new Size(496, 40);
-            label6.TabIndex = 25;
-            label6.Text = "Làm sao để nhận người giúp việc";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.BackColor = SystemColors.GradientActiveCaption;
-            label7.Font = new Font("Tahoma", 14.1428576F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.ForeColor = SystemColors.ButtonFace;
-            label7.Location = new Point(124, 812);
-            label7.Name = "label7";
-            label7.Size = new Size(563, 40);
-            label7.TabIndex = 26;
-            label7.Text = "Trường hợp nếu không hài lòn thì sao";
-            // 
-            // pictureBox8
-            // 
-            pictureBox8.BackColor = SystemColors.HighlightText;
-            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(4, 591);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(67, 53);
-            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox8.TabIndex = 27;
-            pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            pictureBox9.BackColor = SystemColors.HighlightText;
-            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(124, 660);
-            pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(67, 53);
-            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox9.TabIndex = 28;
-            pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            pictureBox10.BackColor = SystemColors.HighlightText;
-            pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
-            pictureBox10.Location = new Point(-1, 726);
-            pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(67, 53);
-            pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox10.TabIndex = 29;
-            pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            pictureBox11.BackColor = SystemColors.HighlightText;
-            pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
-            pictureBox11.Location = new Point(52, 799);
-            pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(67, 53);
-            pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox11.TabIndex = 30;
-            pictureBox11.TabStop = false;
+            lbMessage.FormattingEnabled = true;
+            lbMessage.ItemHeight = 30;
+            lbMessage.Location = new Point(9, 568);
+            lbMessage.Name = "lbMessage";
+            lbMessage.Size = new Size(669, 274);
+            lbMessage.TabIndex = 22;
             // 
             // form_CongDong
             // 
@@ -312,16 +219,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(690, 986);
-            Controls.Add(pictureBox11);
-            Controls.Add(pictureBox10);
-            Controls.Add(pictureBox9);
-            Controls.Add(pictureBox8);
-            Controls.Add(label7);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(label3);
+            Controls.Add(lbMessage);
             Controls.Add(pictureBox7);
-            Controls.Add(textBox1);
+            Controls.Add(tbMessage);
             Controls.Add(label2);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
@@ -345,10 +245,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -367,15 +263,8 @@
         private PictureBox pictureBox5;
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox tbMessage;
         private PictureBox pictureBox7;
-        private Label label3;
-        private Label label5;
-        private Label label6;
-        private Label label7;
-        private PictureBox pictureBox8;
-        private PictureBox pictureBox9;
-        private PictureBox pictureBox10;
-        private PictureBox pictureBox11;
+        private ListBox lbMessage;
     }
 }

@@ -33,5 +33,26 @@ namespace thucHanhBuoi2
             form_TrangChu form_TrangChu = new form_TrangChu();
             form_TrangChu.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            form_LauDonVeSinh lauDonVeSinh = new form_LauDonVeSinh();
+            lauDonVeSinh.ShowDialog();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            from_NauCom from_NauCom = new from_NauCom();
+            from_NauCom.ShowDialog();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            form_GiatUI form_GiatUI = new form_GiatUI();
+            form_GiatUI.ShowDialog();
+        }
     }
 }

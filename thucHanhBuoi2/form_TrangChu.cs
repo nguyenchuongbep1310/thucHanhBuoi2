@@ -40,7 +40,9 @@ namespace thucHanhBuoi2
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            form_ThanhToan form_ThanhToan = new form_ThanhToan();   
+            form_ThanhToan.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
